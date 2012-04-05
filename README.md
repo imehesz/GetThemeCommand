@@ -18,7 +18,7 @@ and installed (default is ... - use full path! )
 --ni, --noinstall
 
 script will only download the theme(s) and will not install 
-default is `false`, meaning it automatically installs the theme(s))
+(default is `false`, meaning it automatically installs the theme(s))
 
 EXAMPLES
 ========
