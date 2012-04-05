@@ -1,20 +1,23 @@
 USAGE
-  gettheme [--options] theme_id[ theme_id2 theme_id3 ... etc]
+=====
+  `gettheme [--options] theme_id[ theme_id2 theme_id3 ... etc]`
 
 DESCRIPTION
+===========
   use this command line tool to download and install theme(s) 
   fron the Yii Themes site for your Yii powered application.
 
 OPTIONS
   --tp, --themespath
     set the themes folder where the themes will be downloaded 
-    and installed (default is {$this->themespath} - use full path! )
+    and installed (default is ... - use full path! )
 
   --ni, --noinstall
     script will only download the theme(s) and will not install 
 	(default is `false`, meaning it automatically installs the theme(s))
 
 EXAMPLES
+========
   To download and install themes just execute
   ./yiic gettheme 1 2 3
 
